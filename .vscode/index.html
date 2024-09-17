@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <label class="bar" for="check">
+        <input type="checkbox" id="check">
+
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </label>
+    <div class="container">
+        <form class="form" id="loginForm">
+            <button class="ui-btn" type="button" onclick="goBack()">
+                <span>Back</span>
+            </button>
+            <p class="title">Login Form</p>
+            <input placeholder="Username" class="username input" type="text" id="username" />
+            <input placeholder="Password" class="password input" type="password" id="password" />
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
